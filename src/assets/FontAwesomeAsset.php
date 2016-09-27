@@ -8,7 +8,7 @@
  * @time    12:09 CH
  * @version 1.0.0
  */
-namespace navatech\roxymce\assets;
+namespace phamxuanloc\roxymce\assets;
 
 use yii\web\AssetBundle;
 

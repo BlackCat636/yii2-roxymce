@@ -8,7 +8,7 @@
  * @time    10:24 SA
  * @version 1.0.0
  */
-namespace navatech\roxymce\assets;
+namespace phamxuanloc\roxymce\assets;
 
 use yii\web\AssetBundle;
 use yii\web\View;
@@ -23,7 +23,7 @@ class RoxyMceAsset extends AssetBundle {
 	 */
 	public function init() {
 		parent::init();
-		$this->sourcePath = '@vendor/navatech/yii2-roxymce/src/web';
+		$this->sourcePath = '@vendor/phamxuanloc/yii2-roxymce/src/web';
 		$this->depends    = [
 			'yii\web\JqueryAsset',
 			'yii\bootstrap\BootstrapAsset',

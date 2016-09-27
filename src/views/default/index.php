@@ -8,9 +8,9 @@
  * @time    2:56 CH
  * @version 1.0.0
  */
-use navatech\roxymce\assets\FontAwesomeAsset;
-use navatech\roxymce\assets\JqueryDateFormatAsset;
-use navatech\roxymce\assets\RoxyMceAsset;
+use phamxuanloc\roxymce\assets\FontAwesomeAsset;
+use phamxuanloc\roxymce\assets\JqueryDateFormatAsset;
+use phamxuanloc\roxymce\assets\RoxyMceAsset;
 use yii\helpers\Url;
 use yii\web\View;
 

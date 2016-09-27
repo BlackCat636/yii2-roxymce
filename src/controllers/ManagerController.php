@@ -8,12 +8,12 @@
  * @time    4:38 CH
  * @version 1.0.0
  */
-namespace navatech\roxymce\controllers;
+namespace phamxuanloc\roxymce\controllers;
 
 use Exception;
-use navatech\roxymce\helpers\FileHelper;
-use navatech\roxymce\helpers\ImageHelper;
-use navatech\roxymce\helpers\RoxyHelper;
+use phamxuanloc\roxymce\helpers\FileHelper;
+use phamxuanloc\roxymce\helpers\ImageHelper;
+use phamxuanloc\roxymce\helpers\RoxyHelper;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\base\InvalidParamException;

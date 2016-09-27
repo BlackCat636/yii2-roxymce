@@ -8,9 +8,9 @@
  * @time    4:33 CH
  * @version 1.0.0
  */
-namespace navatech\roxymce;
+namespace phamxuanloc\roxymce;
 
-use navatech\roxymce\helpers\RoxyHelper;
+use phamxuanloc\roxymce\helpers\RoxyHelper;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\helpers\Url;
@@ -19,7 +19,7 @@ use yii\helpers\Url;
  * @property array $config List of configure for Roxy Fileman
  * {@inheritDoc}
  */
-class Module extends \navatech\base\Module {
+class Module extends \phamxuanloc\base\Module {
 
 	const VERSION = '1.0.0';
 

@@ -7,7 +7,7 @@
  * @date    15/02/2016
  * @time    4:45 CH
  */
-namespace navatech\roxymce\helpers;
+namespace phamxuanloc\roxymce\helpers;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -35,7 +35,7 @@ class RoxyHelper {
 	 */
 	public static function t($key) {
 		$file     = Yii::$app->language . '.json';
-		$langPath = Yii::getAlias('@vendor/navatech/yii2-roxymce/src/web/lang');
+		$langPath = Yii::getAlias('@vendor/phamxuanloc/yii2-roxymce/src/web/lang');
 		if (defined('LANG')) {
 			$file = LANG . '.json';
 		}

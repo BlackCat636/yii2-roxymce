@@ -8,7 +8,7 @@
  * @time    4:19 CH
  * @version 1.0.0
  */
-namespace navatech\roxymce\controllers;
+namespace phamxuanloc\roxymce\controllers;
 
 use Yii;
 use yii\base\Exception;

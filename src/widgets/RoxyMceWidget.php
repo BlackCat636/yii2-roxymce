@@ -8,9 +8,9 @@
  * @time    1:59 SA
  * @version 1.0.0
  */
-namespace navatech\roxymce\widgets;
+namespace phamxuanloc\roxymce\widgets;
 
-use navatech\roxymce\assets\TinyMceAsset;
+use phamxuanloc\roxymce\assets\TinyMceAsset;
 use yii\base\InvalidParamException;
 use yii\base\Widget;
 use yii\bootstrap\Html;

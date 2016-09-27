@@ -7,7 +7,7 @@
  * @date    15/02/2016
  * @time    4:52 CH
  */
-namespace navatech\roxymce\helpers;
+namespace phamxuanloc\roxymce\helpers;
 
 use yii\base\Exception;
 use yii\base\InvalidConfigException;

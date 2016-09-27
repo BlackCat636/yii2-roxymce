@@ -11,11 +11,11 @@ Install
 Preferred way to install this extension through [composer](http://getcomposer.org)  
 Either run
 ~~~
-composer require navatech/yii2-roxymce "@dev"
+composer require phamxuanloc/yii2-roxymce "@dev"
 ~~~
 Or add to `require` section of `composer.json` then run `composer update`
 ~~~
-"navatech/yii2-roxymce" : "@dev" 
+"phamxuanloc/yii2-roxymce" : "@dev" 
 ~~~
 Configure
 ---
@@ -25,7 +25,7 @@ Just add to `config/web.php`
 [php]
 	'modules'    => [
 		'roxymce'  => [
-			'class' => '\navatech\roxymce\Module',
+			'class' => '\phamxuanloc\roxymce\Module',
 		]
 	]
 ~~~
@@ -34,7 +34,7 @@ Just add to `config/web.php`
 [php]
 	'modules'    => [
 		'roxymce'  => [
-			'class' => '\navatech\roxymce\Module',
+			'class' => '\phamxuanloc\roxymce\Module',
 			'config'=> [
 			//all below is not required
 				'FILES_ROOT'           => 'uploads/image', //The root directory of roxymce's resource, where can be uploaded to. if not existed, Roxy will auto create
@@ -64,7 +64,7 @@ In your view file, call roxymce widget
 $model = new Post(); 
 //example in action update
 $model = Post::findOne(['id' => 1]); 
-echo \navatech\roxymce\widgets\RoxyMceWidget::widget([
+echo \phamxuanloc\roxymce\widgets\RoxyMceWidget::widget([
 	'model'       => $model, //your Model, REQUIRED
 	'attribute'   => 'content', //attribute name of your model, REQUIRED if using 'model' section
 	'name'        => 'Post[content]', //default name of textarea which will be auto generated, NOT REQUIRED if using 'model' section
@@ -79,7 +79,7 @@ echo \navatech\roxymce\widgets\RoxyMceWidget::widget([
 ### Sample HTML without ActiveRecord Model
 ~~~
 [php]
-echo \navatech\roxymce\widgets\RoxyMceWidget::widget([
+echo \phamxuanloc\roxymce\widgets\RoxyMceWidget::widget([
 	'name'        => 'content', //default name of textarea which will be auto generated, REQUIRED if not using 'model' section
 	'value'       => isset($_POST['content']) ? $_POST['content'] : '', //default value of current textarea, NOT REQUIRED
 	'action'      => Url::to(['roxymce/default']), //default roxymce action route, NOT REQUIRED
@@ -130,8 +130,8 @@ Resource
 
  * [TinyMce](http://tinymce.com)
  * [RoxyFileMan](http://roxyfileman.com)
- * [Project root](https://github.com/navatech/yii2-roxymce)
+ * [Project root](https://github.com/phamxuanloc/yii2-roxymce)
 
 Bugs & Issues
 ---
-Found some bugs? Just [create an issue](https://github.com/navatech/yii2-roxymce/issues/new) or [fork it](https://github.com/navatech/yii2-roxymce) and send pull request
+Found some bugs? Just [create an issue](https://github.com/phamxuanloc/yii2-roxymce/issues/new) or [fork it](https://github.com/phamxuanloc/yii2-roxymce) and send pull request
